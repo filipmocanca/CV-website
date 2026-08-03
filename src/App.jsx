@@ -564,6 +564,14 @@ function App() {
             </div>
           </a>
           
+          <div className="contact-card" data-tally-open="PdNRVQ" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" style={{ cursor: 'pointer' }}>
+            <div className="contact-icon">📝</div>
+            <div>
+              <div className="contact-label">Contact Form</div>
+              <div className="contact-value">Send a message directly</div>
+            </div>
+          </div>
+
           <div className="contact-card">
             <div className="contact-icon">📍</div>
             <div>
