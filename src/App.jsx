@@ -98,7 +98,7 @@ function App() {
           </div>
           <div className="hero-photo-wrap">
             <div className="photo-ring">
-              <img src="/profile.jpg" alt="Filip Mocanca" />
+              <img src="/profile.png" alt="Filip Mocanca" />
             </div>
           </div>
         </div>
@@ -420,7 +420,11 @@ function App() {
           <div className="cert-item">
             <div className="cert-icon">🏅</div>
             <div>
-              <div className="cert-name">ITIL® Foundation Certificate in IT Service Management</div>
+              <div className="cert-name">
+                <a href="/diploms/e-cert-ITIL.pdf" target="_blank" rel="noopener noreferrer" className="cert-link">
+                  ITIL® Foundation Certificate in IT Service Management
+                </a>
+              </div>
               <div className="cert-detail">Issued Nov 2021 · Credential ID: GR671336768FM</div>
             </div>
           </div>
@@ -441,14 +445,22 @@ function App() {
           <div className="cert-item">
             <div className="cert-icon">🎓</div>
             <div>
-              <div className="cert-name">Vibe Coding – Create your own web app</div>
+              <div className="cert-name">
+                <a href="/diploms/Vibe-Coding-Create-your-own-web-app.pdf" target="_blank" rel="noopener noreferrer" className="cert-link">
+                  Vibe Coding – Create your own web app
+                </a>
+              </div>
               <div className="cert-detail">Digital Learning Hub Luxembourg</div>
             </div>
           </div>
           <div className="cert-item">
             <div className="cert-icon">🛡️</div>
             <div>
-              <div className="cert-name">DevOps and Pipeline Security</div>
+              <div className="cert-name">
+                <a href="/diploms/DevOps-and-Pipeline-Security.pdf" target="_blank" rel="noopener noreferrer" className="cert-link">
+                  DevOps and Pipeline Security
+                </a>
+              </div>
               <div className="cert-detail">Digital Learning Hub Luxembourg</div>
             </div>
           </div>
@@ -462,14 +474,22 @@ function App() {
           <div className="cert-item">
             <div className="cert-icon">🚢</div>
             <div>
-              <div className="cert-name">Orchestrate your applications with Kubernetes</div>
+              <div className="cert-name">
+                <a href="/diploms/certificate_K8S.pdf" target="_blank" rel="noopener noreferrer" className="cert-link">
+                  Orchestrate your applications with Kubernetes
+                </a>
+              </div>
               <div className="cert-detail">Digital Learning Hub Luxembourg</div>
             </div>
           </div>
           <div className="cert-item">
             <div className="cert-icon">🚀</div>
             <div>
-              <div className="cert-name">Pipeline deployment with Gitops</div>
+              <div className="cert-name">
+                <a href="/diploms/certificate_gitops.pdf" target="_blank" rel="noopener noreferrer" className="cert-link">
+                  Pipeline deployment with Gitops
+                </a>
+              </div>
               <div className="cert-detail">Digital Learning Hub Luxembourg</div>
             </div>
           </div>
